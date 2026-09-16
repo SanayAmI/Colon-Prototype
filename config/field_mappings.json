@@ -67,9 +67,9 @@
   },
   "parsing_rules": {
     "coordinates": {
-      "pattern": "([0-9]+\\.[0-9]+)\\s*°?\\s*[NSns]\\s*,\\s*([0-9]+\\.[0-9]+)\\s*°?\\s*[EWew]",
+      "pattern": "([0-9]+\\.[0-9]+)\\s*°?\\s*([NSns])\\s*,\\s*([0-9]+\\.[0-9]+)\\s*°?\\s*([EWew])",
       "output_format": "decimal_degrees"
-    },
+  },
     "date_range": {
       "pattern": "([0-9]{2}/[0-9]{2}/[0-9]{4})\\s*-\\s*([0-9]{2}/[0-9]{2}/[0-9]{4})",
       "output_format": "iso_range"
